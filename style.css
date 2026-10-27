@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #fffeff;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
+.logo {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Lobster Two", sans-serif; 
+}
+li a{
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 600;
+}
+.trans-btn{
+  border: 0;
+  background-color: inherit;
+  font-size: 500;
+  text-transform: capitalize;
+}
+.btn-container{
+  gap: 25px;
+  display: flex;
+}
+.black-btn{
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #171715;
+  color: #fffeff;
+  border: 0;
+  font-weight: 600;
+}
