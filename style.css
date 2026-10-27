@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: black;
+  background-color: white;
   font-family: sans-serif;
 }
 
@@ -29,7 +29,7 @@ ul {
 .logo {
   font-size: 40px;
   font-weight: bold;
-  font-family: "Lobster Two", sans-serif; 
+  font-family: "Nosifer", sans-serif; 
 }
 li a{
   text-decoration: none;
@@ -55,4 +55,31 @@ li a{
   color: #fffeff;
   border: 0;
   font-weight: 600;
+}
+main{
+  margin-top:100px;
+}
+.hero{
+  display:flex;
+ padding: 0,20px;
+}
+.hero > div{
+  width:50%;
+}
+#right>img{
+  width: 100%;
+  border-top-right-radius:15px;
+  border-bottom-right-radius:15px;
+}
+#left{
+background-color:#F5F5F2;
+border-top-left-radius:15px;
+border-bottom-left-radius:15px;
+display: flex;
+align-items: center;
+}
+.in{
+  display:flex;
+  gap:20px;
+  flex-direction:column;
 }
