@@ -96,4 +96,9 @@ main{
   }
 .color{
   color:#5E5E5C;
+  font-weight: 700;
+}
+.col{
+  color:#5E5E5C;
+  font-size: 1.1rem;
 }
