@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: white;
+  background-color:teak ;
   font-family: sans-serif;
 }
 
@@ -61,25 +61,27 @@ main{
 }
 .hero{
   display:flex;
- padding: 0,20px;
+  padding: 0 20px;
 }
-.hero > div{
-  width:50%;
-}
-#right>img{
-  width: 100%;
-  border-top-right-radius:15px;
-  border-bottom-right-radius:15px;
-}
-#left{
-background-color:#F5F5F2;
-border-top-left-radius:15px;
-border-bottom-left-radius:15px;
-display: flex;
-align-items: center;
-}
-.in{
-  display:flex;
-  gap:20px;
-  flex-direction:column;
-}
+  
+  .hero > div{
+    width:50%;
+  }
+  #right>img{
+    width:100%;
+    border-top-right-radius: 15px;
+    border-buttom-right-radius:15px;
+  }
+  #left{
+    background-color:#f5f5f2;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+    display:flex;
+    align-items: center;
+    
+  }
+  .in{
+    display:flex;
+    flex-direction: column;
+    gap:30px
+  }
